@@ -96,7 +96,7 @@ common_items = dict(
         r"Add +1 (+1 per stack) charge of your Secondary skill",
         [ItemType.SUPPORT],
         {
-            "Secondary Skill Charges": Linear(1, 1)
+            "Bonus Secondary Skill Charges": Linear(1, 0)
         }
     ),
 
